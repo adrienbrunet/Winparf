@@ -135,6 +135,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     #Coverage
     'django_coverage',
+    'fileupload',
 )
 
 # A sample logging configuration. The only tangible logging
