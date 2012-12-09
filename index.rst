@@ -1,0 +1,30 @@
+.. WINPARF documentation master file, created by
+   sphinx-quickstart on Mon Nov 26 17:45:26 2012.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to WINPARF's documentation!
+===================================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+Fileupload
+=========================
+
+.. automodule:: fileupload.forms
+    :members:
+
+
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+

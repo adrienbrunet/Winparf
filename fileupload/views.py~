@@ -3,7 +3,7 @@ from django.shortcuts import render_to_response
 from .forms import UploadFileForm
 from django.core.context_processors import csrf
 from .models import Document
-
+from django.conf import settings
 # Imaginary function to handle an uploaded file.
 
 def upload_file(request):
