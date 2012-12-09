@@ -11,10 +11,26 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-Fileupload
+Fileupload 
 =========================
 
+forms.py
++++++++++++++++++++++++++
+
 .. automodule:: fileupload.forms
+    :members:
+
+views.py
++++++++++++++++++++++++++
+
+.. automodule:: fileupload.views
+    :members:
+
+
+tests.py
++++++++++++++++++++++++++
+
+.. automodule:: fileupload.tests
     :members:
 
 

@@ -54,20 +54,56 @@
 </ul>
 </div>
 </div>
+<div class="section" id="fileupload">
+<h1>Fileupload<a class="headerlink" href="#fileupload" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-fileupload.forms">
-<span id="fileupload"></span><h1>Fileupload<a class="headerlink" href="#module-fileupload.forms" title="Permalink to this headline">¶</a></h1>
+<span id="forms-py"></span><h2>forms.py<a class="headerlink" href="#module-fileupload.forms" title="Permalink to this headline">¶</a></h2>
 <dl class="class">
 <dt id="fileupload.forms.UploadFileForm">
 <em class="property">class </em><tt class="descclassname">fileupload.forms.</tt><tt class="descname">UploadFileForm</tt><big>(</big><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.util.ErrorList'&gt;</em>, <em>label_suffix=':'</em>, <em>empty_permitted=False</em><big>)</big><a class="reference internal" href="_modules/fileupload/forms.html#UploadFileForm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fileupload.forms.UploadFileForm" title="Permalink to this definition">¶</a></dt>
 <dd><p>Uploader un fichier</p>
 </dd></dl>
 
-<dl class="class">
-<dt>
-<em class="property">class </em><tt class="descclassname">fileupload.forms.</tt><tt class="descname">UploadFileForm</tt><big>(</big><em>data=None</em>, <em>files=None</em>, <em>auto_id='id_%s'</em>, <em>prefix=None</em>, <em>initial=None</em>, <em>error_class=&lt;class 'django.forms.util.ErrorList'&gt;</em>, <em>label_suffix=':'</em>, <em>empty_permitted=False</em><big>)</big><a class="reference internal" href="_modules/fileupload/forms.html#UploadFileForm"><span class="viewcode-link">[source]</span></a></dt>
-<dd><p>Uploader un fichier</p>
+</div>
+<div class="section" id="module-fileupload.views">
+<span id="views-py"></span><h2>views.py<a class="headerlink" href="#module-fileupload.views" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="fileupload.views.handle_uploaded_file">
+<tt class="descclassname">fileupload.views.</tt><tt class="descname">handle_uploaded_file</tt><big>(</big><em>file</em><big>)</big><a class="reference internal" href="_modules/fileupload/views.html#handle_uploaded_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fileupload.views.handle_uploaded_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Place le fichier à la destination choisie</p>
 </dd></dl>
 
+<dl class="function">
+<dt id="fileupload.views.list">
+<tt class="descclassname">fileupload.views.</tt><tt class="descname">list</tt><big>(</big><em>request</em><big>)</big><a class="reference internal" href="_modules/fileupload/views.html#list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fileupload.views.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Liste les documents uploadés dans la page fileupload/list.html</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fileupload.views.upload_file">
+<tt class="descclassname">fileupload.views.</tt><tt class="descname">upload_file</tt><big>(</big><em>request</em><big>)</big><a class="reference internal" href="_modules/fileupload/views.html#upload_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fileupload.views.upload_file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Préparation de l&#8217;upload du fichier</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-fileupload.tests">
+<span id="tests-py"></span><h2>tests.py<a class="headerlink" href="#module-fileupload.tests" title="Permalink to this headline">¶</a></h2>
+<p>This file demonstrates writing tests using the unittest module. These will pass
+when you run &#8220;manage.py test&#8221;.</p>
+<p>Replace this with more appropriate tests for your application.</p>
+<dl class="class">
+<dt id="fileupload.tests.SimpleTest">
+<em class="property">class </em><tt class="descclassname">fileupload.tests.</tt><tt class="descname">SimpleTest</tt><big>(</big><em>methodName='runTest'</em><big>)</big><a class="reference internal" href="_modules/fileupload/tests.html#SimpleTest"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fileupload.tests.SimpleTest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Vérifier que l&#8217;upload se déroule correctement</p>
+<dl class="method">
+<dt id="fileupload.tests.SimpleTest.test_basic_addition">
+<tt class="descname">test_basic_addition</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/fileupload/tests.html#SimpleTest.test_basic_addition"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fileupload.tests.SimpleTest.test_basic_addition" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tests that 1 + 1 always equals 2.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
 </div>
 <div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
@@ -89,7 +125,12 @@
 <li><a class="reference internal" href="#">Welcome to WINPARF&#8217;s documentation!</a><ul>
 </ul>
 </li>
-<li><a class="reference internal" href="#module-fileupload.forms">Fileupload</a></li>
+<li><a class="reference internal" href="#fileupload">Fileupload</a><ul>
+<li><a class="reference internal" href="#module-fileupload.forms">forms.py</a></li>
+<li><a class="reference internal" href="#module-fileupload.views">views.py</a></li>
+<li><a class="reference internal" href="#module-fileupload.tests">tests.py</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 
