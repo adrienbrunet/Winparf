@@ -1,0 +1,6 @@
+Pour importer les settings
+export DJANGO_SETTINGS_MODULE=yoursite.settings
+
+Pour ajouter ton fichier au path
+export PYTHONPATH=$PYTHONPATH:./
+
